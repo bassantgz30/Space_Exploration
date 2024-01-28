@@ -25,6 +25,11 @@ body {
     font-weight: 800;  /*bold*/
 }
 
+.apply-btn:hover {
+    background-color: #82a5ca;
+    color: white;
+}
+
 .underline {
     border-bottom: 4px solid white;
 }
