@@ -1,11 +1,15 @@
 
 body {
-    color: white;
-    background-image: url("../images/galaxy.gif");
-    background-size: cover;
+    margin: 0;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     color: #82a5ca;
+}
+
+#hero-section {
+    background-image: url("../images/galaxy.gif");
+    background-size: 100%;
+    padding: 0 15px 50px;
 }
 
 #main-logo {
@@ -26,5 +30,5 @@ body {
 }
 
 .urls-ref {
-    color: white;
+    color: black;
 }
