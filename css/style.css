@@ -16,6 +16,10 @@ body {
     width: 150px;
 }
 
+#head-text {
+    text-shadow: 0px 0px 5PX black;
+}
+
 .apply-btn {
     padding: 6px 12px;
     background: white;
@@ -37,3 +41,13 @@ body {
 .urls-ref {
     color: black;
 }
+
+
+/* 
+Text Shadow
+    text-shadow: 5px 3px 0p black;  ===> right-offset , down-offset , sharp , color
+    text-shadow: -5px 3px 6px black;  ===> left-offset , down-offset , blur , color
+    text-shadow: 5px -3px black;  ===> right-offset , up-offset , sharp , color
+
+    text-shadow: 0px 0px 5px black;  very nice hack, only glowy text
+*/
